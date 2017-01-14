@@ -41,18 +41,14 @@
         android:id="@+id/nameET"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="center_vertical"
-        android:background="@drawable/btn_press"
-        android:gravity="center"
-        android:inputType="text"
-        android:hint="Enter User Name Here"
-        android:textAllCaps="true" />
+        android:inputType="textEmailAddress"
+        android:hint="username" />
     </com.github.florent37.materialtextfield.MaterialTextField>
 
     <com.github.florent37.materialtextfield.MaterialTextField
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:mtf_image="@drawable/mail"
+        app:mtf_image="@drawable/pass"
         app:mtf_cardCollapsedHeight="4dp"
         android:layout_marginTop="15dp"
         app:mtf_animationDuration="300"
@@ -63,11 +59,8 @@
         android:id="@+id/passwordET"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="center_vertical"
-        android:background="@drawable/btn_press"
         android:inputType="textPassword"
-        android:hint="password"
-        android:textAllCaps="true" />
+        android:hint="password" />
     </com.github.florent37.materialtextfield.MaterialTextField>
 
     <Button

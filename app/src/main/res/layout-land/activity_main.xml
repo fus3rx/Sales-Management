@@ -39,18 +39,15 @@
         android:id="@+id/nameET"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="center_vertical"
-        android:background="@drawable/btn_press"
-        android:gravity="center"
-        android:inputType="text"
-        android:hint="Enter User Name Here"
+        android:inputType="textEmailAddress"
+        android:hint="username"
         android:textAllCaps="true" />
     </com.github.florent37.materialtextfield.MaterialTextField>
 
     <com.github.florent37.materialtextfield.MaterialTextField
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:mtf_image="@drawable/mail"
+        app:mtf_image="@drawable/pass"
         app:mtf_cardCollapsedHeight="4dp"
         app:mtf_animationDuration="300"
         app:mtf_labelColor="@android:color/holo_red_dark"
@@ -60,8 +57,6 @@
         android:id="@+id/passwordET"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="center_vertical"
-        android:background="@drawable/btn_press"
         android:inputType="textPassword"
         android:hint="password"
         android:textAllCaps="true" />
@@ -106,7 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="forgot password?"
         android:textColor="@color/colorPrimary"
         android:textSize="14dp"
