@@ -46,7 +46,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_marginBottom="34dp"
         android:text="logout" />
 
     <TextView
@@ -54,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:text="Welcome"
         android:textAllCaps="true"
@@ -70,7 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="53dp"
+        android:layout_marginTop="13dp"
         android:weightSum="2"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
