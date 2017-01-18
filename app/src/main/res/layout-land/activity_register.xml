@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#68EFAD"
     android:orientation="vertical"
-    tools:context="com.example.shahr.salesmanagement.RegisterActivity">
+    tools:context="com.example.shahr.salesmanagement.register.RegisterActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         app:mtf_animationDuration="300"
         app:mtf_cardCollapsedHeight="4dp"
-        app:mtf_image="@drawable/mail"
+        app:mtf_image="@drawable/name"
         app:mtf_labelColor="@android:color/holo_red_dark"
         app:mtf_openKeyboardOnFocus="true">
 
@@ -49,7 +49,7 @@
             android:layout_weight="1"
             app:mtf_animationDuration="300"
             app:mtf_cardCollapsedHeight="4dp"
-            app:mtf_image="@drawable/mail"
+            app:mtf_image="@drawable/user"
             app:mtf_labelColor="@android:color/holo_red_dark"
             app:mtf_openKeyboardOnFocus="true">
 
@@ -69,7 +69,7 @@
             android:layout_weight="1"
             app:mtf_animationDuration="300"
             app:mtf_cardCollapsedHeight="4dp"
-            app:mtf_image="@drawable/mail"
+            app:mtf_image="@drawable/pass"
             app:mtf_labelColor="@android:color/holo_red_dark"
             app:mtf_openKeyboardOnFocus="true">
 
@@ -112,7 +112,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
             android:layout_weight="1"
             android:orientation="horizontal">
 
@@ -144,7 +143,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="5dp"
         android:onClick="getRegister"
         android:text="register" />
 

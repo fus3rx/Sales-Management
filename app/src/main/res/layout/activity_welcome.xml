@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.shahr.salesmanagement.WelcomeActivity">
+    tools:context="com.example.shahr.salesmanagement.login.WelcomeActivity">
 
     <LinearLayout
         android:id="@+id/secondPart"
@@ -25,6 +25,7 @@
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
+            android:onClick="statClick"
             android:text="Statistics" />
 
         <Button
@@ -34,6 +35,7 @@
             android:layout_height="100dp"
             android:layout_below="@+id/textView"
             android:layout_weight="1"
+            android:onClick="salesClick"
             android:text="Sales" />
 
     </LinearLayout>
@@ -85,7 +87,8 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_weight="1"
-            android:text="Ware House" />
+            android:onClick="warehouseClick"
+            android:text="Products" />
 
         <Button
             android:id="@+id/customerBTN"
@@ -94,6 +97,7 @@
             android:layout_height="100dp"
             android:layout_below="@+id/wareBTN"
             android:layout_weight="1"
+            android:onClick="customerClick"
             android:text="Customers" />
 
     </LinearLayout>
