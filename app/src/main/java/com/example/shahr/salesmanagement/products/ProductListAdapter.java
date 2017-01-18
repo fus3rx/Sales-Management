@@ -40,10 +40,10 @@ public class ProductListAdapter extends ArrayAdapter<ProductInformation> {
         ImageView productImage = (ImageView) convertView.findViewById(R.id.productImage_IV_ID);
 
         productName.setText(productInformation.getProductName());
-        productQuantity.setText(productInformation.getProductAvailability());
+        productQuantity.setText(String.valueOf(productInformation.getProductAvailability()));
 
         productImage.setImageResource(productInformation.getImages());
 
-        return super.getView(position, convertView, parent);
+        return convertView;
     }
 }
